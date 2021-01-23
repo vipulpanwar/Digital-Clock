@@ -1,0 +1,27 @@
+body {
+    background-image: url(digiback.jpg);
+    background-size: cover;
+    background-position-y: -125px;
+    
+}
+
+.heading{
+    font-size: 4rem;               /* rem is responsive unit*/
+    position: absolute;
+    top: 35%;
+    left: 38%;
+    color: #000000;
+}
+
+
+#clock{
+    text-align: center;
+    box-shadow: 0 0 40px #042c52;       /* x offset, y offset, shadow width, color*/
+    position: absolute;
+    top: 48%;
+    left: 36.5%;
+    background-color: #074885;
+    font-size: 4rem;
+    border-radius: 10px;
+    width: 400px;
+}
